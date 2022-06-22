@@ -1,0 +1,170 @@
+
+
+
+    body{
+padding: 100px; 
+}
+ 
+
+
+
+.calc{
+
+    font-size: 2rem;
+    padding: 10px;
+border-radius: 5%;
+display: grid;
+border: 2px black solid;
+background-color:gainsboro; 
+height: 450px;
+width: 450px;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(6,1fr);
+text-align: center;
+
+
+grid-template-areas:
+"input input input input"
+"more less for cut"
+"seven  eight nine equal"
+"four five six equal"
+"one two three equal"
+"zero point ac equal";
+
+}
+
+.input{
+    border-radius:10px 10px 0px 0px;
+    font-size: 4rem;
+grid-area: input;
+text-align:right;
+padding-right: 10px;
+background-color: #231f20;
+color: white;
+}
+
+.more{
+    display: grid;
+    align-content: center;
+grid-area:more ;
+border:2px #757679 solid;
+background-color: grey;
+
+}
+.less{
+    display: grid;
+    align-content: center;
+grid-area:less;
+border:2px #757679 solid;
+background-color: grey;
+}
+.for{
+    display: grid;
+    align-content: center;
+grid-area:for;
+border:2px #757679 solid;
+background-color: grey;
+}
+.cut{
+    display: grid;
+    align-content: center;
+grid-area:cut;
+border:2px #757679 solid;
+background-color: grey;
+}
+.seven{
+    display: grid;
+    align-content: center;
+grid-area:seven;
+border:2px #757679 solid;
+}
+.eight{
+    display: grid;
+    align-content: center;
+grid-area:eight;
+border:2px #757679 solid;
+}
+.nine{
+    display: grid;
+    align-content: center;
+grid-area:nine;
+border:2px #757679 solid;
+}
+.four{
+    display: grid;
+    align-content: center;
+grid-area:four;
+border:2px #757679 solid;
+}
+.five{
+    display: grid;
+    align-content: center;
+grid-area:five;
+border:2px #757679 solid;
+}
+.six{
+    display: grid;
+    align-content: center;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+grid-area:six;
+border:2px #757679 solid;
+}
+.equal{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    border-radius:0px 0px 10px 0px;
+grid-area:equal;
+background-color: red;
+border:2px #757679 solid;
+}
+.one{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+grid-area:one;
+border:2px #757679 solid;
+}
+.two{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+grid-area:two;
+border:2px #757679 solid;
+}
+.three{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+grid-area:three;
+border:2px #757679 solid;
+}
+.zero{
+    display: grid;
+   
+    align-content: center;
+    border-radius:0px 0px 0px 10px;
+grid-area:zero;
+border:2px #757679 solid;
+
+
+}
+.ac{
+    display: grid;
+    align-content: center;
+grid-area:ac;
+border:2px #757679 solid;
+}
+
+.point{
+    display: grid;
+    align-content: center;
+grid-area:point;
+border:2px #757679 solid;
+}
+
+
+
+
