@@ -1,0 +1,33 @@
+.bigflex{
+display: flex;}
+
+#green{
+
+flex: 1;
+order: 3;
+}
+
+#yellow{
+
+    flex: 1;
+    order: 1;
+    }
+
+    #orange{
+
+        flex: 4;
+        order: 4;
+        }
+
+
+        #blue{
+
+            flex: 1;
+            order: 5;
+            }
+
+            #red{
+
+                flex: 1;
+                order: 2;
+                }
